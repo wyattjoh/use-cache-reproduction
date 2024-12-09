@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
 
-import { findBlogPost } from "@/db";
+import { findBlogPost } from "@/app/db";
 
 export const size = {
   width: 1920,
